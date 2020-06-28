@@ -1,0 +1,1582 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      //1: "describes your app and its dependencies"
+      //2: "https://docs.npmjs.com/files/package.json"
+      //3: "updating this file will download and update your packages"
+      name: "hello-express"
+      version: "0.0.1"
+      description: "A simple Node app built on Express, instantly up and running."
+      main: "server.js"
+      scripts: 
+        start: "node server.js"
+      dependencies: 
+        express: "^4.17.1"
+        quick.db: "^7.0.0-b22"
+        discord.js: "^11.5.1"
+        fs: "^0.0.2"
+        chalk: "^3.0.0"
+        moment: "^2.24.0"
+        moment-duration-format: "^2.2.2"
+      engines: 
+        node: "12.x"
+      repository: 
+        url: "https://glitch.com/edit/#!/hello-express"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      readme: "MERHABALAR BU ALTYAPI [FRENZY CODE](https://discord.gg/F5VD66M) SUNUCUSUNA AİİTR. PAYLAŞILMASI KESİNLİKLE YASAKTIR! \n\n---------------------------------\n[TIKLA GİT](https://discord.gg/F5VD66M)\n---------------------------------"
+      readmeFilename: "README.MD"
+      gitHead: "ea10a208f40aa0a17422162df06f6e7b3b0c8e43"
+      _id: "hello-express@0.0.1"
+    prefix: "/app"
+  3 info pnpm: 
+    message: "Performing headless installation"
+    prefix: "/app"
+  4 debug pnpm:stats: 
+    prefix: "/app"
+    removed: 0
+  5 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_started"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/chalk/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/chalk/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ansi-styles/4.2.1"
+    requester: "/app"
+    status: "resolved"
+  9 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ansi-styles/4.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/color-name/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/color-name/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/color-convert/2.0.1"
+    requester: "/app"
+    status: "resolved"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/color-convert/2.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/color-name/1.1.4"
+    requester: "/app"
+    status: "resolved"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/color-name/1.1.4"
+    requester: "/app"
+    status: "found_in_store"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/supports-color/7.1.0"
+    requester: "/app"
+    status: "resolved"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/supports-color/7.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  18 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-flag/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-flag/4.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  20 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js/11.6.3"
+    requester: "/app"
+    status: "resolved"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js/11.6.3"
+    requester: "/app"
+    status: "found_in_store"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/long/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  23 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/long/4.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  24 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/prism-media/0.0.4"
+    requester: "/app"
+    status: "resolved"
+  25 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/prism-media/0.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  26 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/snekfetch/3.6.4"
+    requester: "/app"
+    status: "resolved"
+  27 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/snekfetch/3.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  28 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tweetnacl/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  29 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tweetnacl/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  30 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/6.2.1"
+    requester: "/app"
+    status: "resolved"
+  31 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/6.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  32 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/async-limiter/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  33 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/async-limiter/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  34 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.17.1"
+    requester: "/app"
+    status: "resolved"
+  35 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.17.1"
+    requester: "/app"
+    status: "found_in_store"
+  36 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/accepts/1.3.7"
+    requester: "/app"
+    status: "resolved"
+  37 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/accepts/1.3.7"
+    requester: "/app"
+    status: "found_in_store"
+  38 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.25"
+    requester: "/app"
+    status: "resolved"
+  39 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.25"
+    requester: "/app"
+    status: "found_in_store"
+  40 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.42.0"
+    requester: "/app"
+    status: "resolved"
+  41 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.42.0"
+    requester: "/app"
+    status: "found_in_store"
+  42 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/negotiator/0.6.2"
+    requester: "/app"
+    status: "resolved"
+  43 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/negotiator/0.6.2"
+    requester: "/app"
+    status: "found_in_store"
+  44 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/array-flatten/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  45 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/array-flatten/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  46 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/body-parser/1.19.0"
+    requester: "/app"
+    status: "resolved"
+  47 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/body-parser/1.19.0"
+    requester: "/app"
+    status: "found_in_store"
+  48 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bytes/3.1.0"
+    requester: "/app"
+    status: "resolved"
+  49 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bytes/3.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  50 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-type/1.0.4"
+    requester: "/app"
+    status: "resolved"
+  51 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-type/1.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  52 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/2.6.9"
+    requester: "/app"
+    status: "resolved"
+  53 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/2.6.9"
+    requester: "/app"
+    status: "found_in_store"
+  54 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  55 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  56 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/depd/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  57 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/depd/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  58 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-errors/1.7.2"
+    requester: "/app"
+    status: "resolved"
+  59 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-errors/1.7.2"
+    requester: "/app"
+    status: "found_in_store"
+  60 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.3"
+    requester: "/app"
+    status: "resolved"
+  61 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  62 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/setprototypeof/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  63 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/setprototypeof/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  64 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/statuses/1.5.0"
+    requester: "/app"
+    status: "resolved"
+  65 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/statuses/1.5.0"
+    requester: "/app"
+    status: "found_in_store"
+  66 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/toidentifier/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  67 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/toidentifier/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  68 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/iconv-lite/0.4.24"
+    requester: "/app"
+    status: "resolved"
+  69 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/iconv-lite/0.4.24"
+    requester: "/app"
+    status: "found_in_store"
+  70 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safer-buffer/2.1.2"
+    requester: "/app"
+    status: "resolved"
+  71 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safer-buffer/2.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  72 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/on-finished/2.3.0"
+    requester: "/app"
+    status: "resolved"
+  73 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/on-finished/2.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  74 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ee-first/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  75 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ee-first/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  76 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/qs/6.7.0"
+    requester: "/app"
+    status: "resolved"
+  77 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/qs/6.7.0"
+    requester: "/app"
+    status: "found_in_store"
+  78 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/raw-body/2.4.0"
+    requester: "/app"
+    status: "resolved"
+  79 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/raw-body/2.4.0"
+    requester: "/app"
+    status: "found_in_store"
+  80 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/unpipe/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  81 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/unpipe/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  82 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/type-is/1.6.18"
+    requester: "/app"
+    status: "resolved"
+  83 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/type-is/1.6.18"
+    requester: "/app"
+    status: "found_in_store"
+  84 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/media-typer/0.3.0"
+    requester: "/app"
+    status: "resolved"
+  85 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/media-typer/0.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  86 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-disposition/0.5.3"
+    requester: "/app"
+    status: "resolved"
+  87 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-disposition/0.5.3"
+    requester: "/app"
+    status: "found_in_store"
+  88 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.1.2"
+    requester: "/app"
+    status: "resolved"
+  89 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  90 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie/0.4.0"
+    requester: "/app"
+    status: "resolved"
+  91 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie/0.4.0"
+    requester: "/app"
+    status: "found_in_store"
+  92 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie-signature/1.0.6"
+    requester: "/app"
+    status: "resolved"
+  93 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie-signature/1.0.6"
+    requester: "/app"
+    status: "found_in_store"
+  94 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/encodeurl/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  95 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/encodeurl/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  96 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/escape-html/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  97 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/escape-html/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  98 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/etag/1.8.1"
+    requester: "/app"
+    status: "resolved"
+  99 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/etag/1.8.1"
+    requester: "/app"
+    status: "found_in_store"
+  100 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/finalhandler/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  101 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/finalhandler/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  102 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parseurl/1.3.3"
+    requester: "/app"
+    status: "resolved"
+  103 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parseurl/1.3.3"
+    requester: "/app"
+    status: "found_in_store"
+  104 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fresh/0.5.2"
+    requester: "/app"
+    status: "resolved"
+  105 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fresh/0.5.2"
+    requester: "/app"
+    status: "found_in_store"
+  106 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/merge-descriptors/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  107 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/merge-descriptors/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  108 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/methods/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  109 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/methods/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  110 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/path-to-regexp/0.1.7"
+    requester: "/app"
+    status: "resolved"
+  111 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/path-to-regexp/0.1.7"
+    requester: "/app"
+    status: "found_in_store"
+  112 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/proxy-addr/2.0.5"
+    requester: "/app"
+    status: "resolved"
+  113 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/proxy-addr/2.0.5"
+    requester: "/app"
+    status: "found_in_store"
+  114 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/forwarded/0.1.2"
+    requester: "/app"
+    status: "resolved"
+  115 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/forwarded/0.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  116 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ipaddr.js/1.9.0"
+    requester: "/app"
+    status: "resolved"
+  117 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ipaddr.js/1.9.0"
+    requester: "/app"
+    status: "found_in_store"
+  118 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/range-parser/1.2.1"
+    requester: "/app"
+    status: "resolved"
+  119 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/range-parser/1.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  120 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/send/0.17.1"
+    requester: "/app"
+    status: "resolved"
+  121 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/send/0.17.1"
+    requester: "/app"
+    status: "found_in_store"
+  122 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/destroy/1.0.4"
+    requester: "/app"
+    status: "resolved"
+  123 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/destroy/1.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  124 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-errors/1.7.3"
+    requester: "/app"
+    status: "resolved"
+  125 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-errors/1.7.3"
+    requester: "/app"
+    status: "found_in_store"
+  126 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.4"
+    requester: "/app"
+    status: "resolved"
+  127 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  128 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/1.6.0"
+    requester: "/app"
+    status: "resolved"
+  129 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/1.6.0"
+    requester: "/app"
+    status: "found_in_store"
+  130 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.1"
+    requester: "/app"
+    status: "resolved"
+  131 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  132 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/serve-static/1.14.1"
+    requester: "/app"
+    status: "resolved"
+  133 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/serve-static/1.14.1"
+    requester: "/app"
+    status: "found_in_store"
+  134 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/utils-merge/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  135 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/utils-merge/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  136 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/vary/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  137 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/vary/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  138 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fs/0.0.2"
+    requester: "/app"
+    status: "resolved"
+  139 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fs/0.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  140 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment/2.24.0"
+    requester: "/app"
+    status: "resolved"
+  141 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment/2.24.0"
+    requester: "/app"
+    status: "found_in_store"
+  142 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment-duration-format/2.3.2"
+    requester: "/app"
+    status: "resolved"
+  143 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment-duration-format/2.3.2"
+    requester: "/app"
+    status: "found_in_store"
+  144 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/quick.db/7.0.0-b22"
+    requester: "/app"
+    status: "resolved"
+  145 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/quick.db/7.0.0-b22"
+    requester: "/app"
+    status: "found_in_store"
+  146 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/better-sqlite3/5.4.3"
+    requester: "/app"
+    status: "resolved"
+  147 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/better-sqlite3/5.4.3"
+    requester: "/app"
+    status: "found_in_store"
+  148 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/integer/2.1.0"
+    requester: "/app"
+    status: "resolved"
+  149 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/integer/2.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  150 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tar/4.4.13"
+    requester: "/app"
+    status: "resolved"
+  151 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tar/4.4.13"
+    requester: "/app"
+    status: "found_in_store"
+  152 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/chownr/1.1.4"
+    requester: "/app"
+    status: "resolved"
+  153 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/chownr/1.1.4"
+    requester: "/app"
+    status: "found_in_store"
+  154 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fs-minipass/1.2.7"
+    requester: "/app"
+    status: "resolved"
+  155 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fs-minipass/1.2.7"
+    requester: "/app"
+    status: "found_in_store"
+  156 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/minipass/2.9.0"
+    requester: "/app"
+    status: "resolved"
+  157 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/minipass/2.9.0"
+    requester: "/app"
+    status: "found_in_store"
+  158 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.2.0"
+    requester: "/app"
+    status: "resolved"
+  159 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  160 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/yallist/3.1.1"
+    requester: "/app"
+    status: "resolved"
+  161 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/yallist/3.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  162 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/minizlib/1.3.3"
+    requester: "/app"
+    status: "resolved"
+  163 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/minizlib/1.3.3"
+    requester: "/app"
+    status: "found_in_store"
+  164 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mkdirp/0.5.3"
+    requester: "/app"
+    status: "resolved"
+  165 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mkdirp/0.5.3"
+    requester: "/app"
+    status: "found_in_store"
+  166 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/minimist/1.2.5"
+    requester: "/app"
+    status: "resolved"
+  167 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/minimist/1.2.5"
+    requester: "/app"
+    status: "found_in_store"
+  168 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lodash.get/4.4.2"
+    requester: "/app"
+    status: "resolved"
+  169 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lodash.get/4.4.2"
+    requester: "/app"
+    status: "found_in_store"
+  170 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lodash.set/4.3.2"
+    requester: "/app"
+    status: "resolved"
+  171 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lodash.set/4.3.2"
+    requester: "/app"
+    status: "found_in_store"
+  172 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lodash.unset/4.5.2"
+    requester: "/app"
+    status: "resolved"
+  173 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lodash.unset/4.5.2"
+    requester: "/app"
+    status: "found_in_store"
+  174 debug pnpm:stats: 
+    added: 84
+    prefix: "/app"
+  175 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ansi-styles/4.2.1/node_modules/ansi-styles"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/chalk/3.0.0/node_modules/ansi-styles"
+  176 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/supports-color/7.1.0/node_modules/supports-color"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/chalk/3.0.0/node_modules/supports-color"
+  177 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/@types/color-name/1.1.1/node_modules/@types/color-name"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ansi-styles/4.2.1/node_modules/@types/color-name"
+  178 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/color-convert/2.0.1/node_modules/color-convert"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ansi-styles/4.2.1/node_modules/color-convert"
+  179 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/color-name/1.1.4/node_modules/color-name"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/color-convert/2.0.1/node_modules/color-name"
+  180 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/has-flag/4.0.0/node_modules/has-flag"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/supports-color/7.1.0/node_modules/has-flag"
+  181 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/long/4.0.0/node_modules/long"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/discord.js/11.6.3/node_modules/long"
+  182 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/prism-media/0.0.4/node_modules/prism-media"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/discord.js/11.6.3/node_modules/prism-media"
+  183 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/snekfetch/3.6.4/node_modules/snekfetch"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/discord.js/11.6.3/node_modules/snekfetch"
+  184 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/tweetnacl/1.0.3/node_modules/tweetnacl"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/discord.js/11.6.3/node_modules/tweetnacl"
+  185 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ws/6.2.1/node_modules/ws"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/discord.js/11.6.3/node_modules/ws"
+  186 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/async-limiter/1.0.1/node_modules/async-limiter"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ws/6.2.1/node_modules/async-limiter"
+  187 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/accepts/1.3.7/node_modules/accepts"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/accepts"
+  188 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/array-flatten/1.1.1/node_modules/array-flatten"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/array-flatten"
+  189 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/body-parser"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/body-parser"
+  190 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/content-disposition/0.5.3/node_modules/content-disposition"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/content-disposition"
+  191 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/content-type/1.0.4/node_modules/content-type"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/content-type"
+  192 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/cookie/0.4.0/node_modules/cookie"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/cookie"
+  193 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/cookie-signature/1.0.6/node_modules/cookie-signature"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/cookie-signature"
+  194 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/debug"
+  195 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/depd/1.1.2/node_modules/depd"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/depd"
+  196 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/encodeurl"
+  197 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/escape-html"
+  198 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/etag"
+  199 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/finalhandler/1.1.2/node_modules/finalhandler"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/finalhandler"
+  200 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/fresh"
+  201 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/merge-descriptors/1.0.1/node_modules/merge-descriptors"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/merge-descriptors"
+  202 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/methods/1.1.2/node_modules/methods"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/methods"
+  203 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/on-finished"
+  204 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/parseurl"
+  205 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/path-to-regexp/0.1.7/node_modules/path-to-regexp"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/path-to-regexp"
+  206 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/proxy-addr/2.0.5/node_modules/proxy-addr"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/proxy-addr"
+  207 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/qs/6.7.0/node_modules/qs"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/qs"
+  208 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/range-parser/1.2.1/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/range-parser"
+  209 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/safe-buffer/5.1.2/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/safe-buffer"
+  210 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/send"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/send"
+  211 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/serve-static/1.14.1/node_modules/serve-static"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/serve-static"
+  212 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/setprototypeof/1.1.1/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/setprototypeof"
+  213 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/statuses/1.5.0/node_modules/statuses"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/statuses"
+  214 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/type-is"
+  215 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/utils-merge/1.0.1/node_modules/utils-merge"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/utils-merge"
+  216 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/vary/1.1.2/node_modules/vary"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/vary"
+  217 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/mime-types/2.1.25/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/accepts/1.3.7/node_modules/mime-types"
+  218 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/negotiator/0.6.2/node_modules/negotiator"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/accepts/1.3.7/node_modules/negotiator"
+  219 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/mime-db/1.42.0/node_modules/mime-db"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/mime-types/2.1.25/node_modules/mime-db"
+  220 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/bytes/3.1.0/node_modules/bytes"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/bytes"
+  221 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/content-type/1.0.4/node_modules/content-type"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/content-type"
+  222 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/debug"
+  223 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/depd/1.1.2/node_modules/depd"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/depd"
+  224 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.2/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/http-errors"
+  225 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/iconv-lite"
+  226 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/on-finished"
+  227 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/qs/6.7.0/node_modules/qs"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/qs"
+  228 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/raw-body/2.4.0/node_modules/raw-body"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/raw-body"
+  229 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/type-is"
+  230 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ms/2.0.0/node_modules/ms"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/ms"
+  231 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/depd/1.1.2/node_modules/depd"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.2/node_modules/depd"
+  232 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/inherits/2.0.3/node_modules/inherits"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.2/node_modules/inherits"
+  233 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/setprototypeof/1.1.1/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.2/node_modules/setprototypeof"
+  234 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/statuses/1.5.0/node_modules/statuses"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.2/node_modules/statuses"
+  235 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/toidentifier/1.0.0/node_modules/toidentifier"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.2/node_modules/toidentifier"
+  236 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/safer-buffer/2.1.2/node_modules/safer-buffer"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/safer-buffer"
+  237 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ee-first/1.1.1/node_modules/ee-first"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/ee-first"
+  238 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/bytes/3.1.0/node_modules/bytes"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/raw-body/2.4.0/node_modules/bytes"
+  239 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.2/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/raw-body/2.4.0/node_modules/http-errors"
+  240 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/raw-body/2.4.0/node_modules/iconv-lite"
+  241 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/raw-body/2.4.0/node_modules/unpipe"
+  242 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/media-typer/0.3.0/node_modules/media-typer"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/media-typer"
+  243 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/mime-types/2.1.25/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/mime-types"
+  244 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/safe-buffer/5.1.2/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/content-disposition/0.5.3/node_modules/safe-buffer"
+  245 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/finalhandler/1.1.2/node_modules/debug"
+  246 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/finalhandler/1.1.2/node_modules/encodeurl"
+  247 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/finalhandler/1.1.2/node_modules/escape-html"
+  248 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/finalhandler/1.1.2/node_modules/on-finished"
+  249 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/finalhandler/1.1.2/node_modules/parseurl"
+  250 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/statuses/1.5.0/node_modules/statuses"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/finalhandler/1.1.2/node_modules/statuses"
+  251 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/finalhandler/1.1.2/node_modules/unpipe"
+  252 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/forwarded/0.1.2/node_modules/forwarded"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/proxy-addr/2.0.5/node_modules/forwarded"
+  253 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ipaddr.js/1.9.0/node_modules/ipaddr.js"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/proxy-addr/2.0.5/node_modules/ipaddr.js"
+  254 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/debug"
+  255 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/depd/1.1.2/node_modules/depd"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/depd"
+  256 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/destroy/1.0.4/node_modules/destroy"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/destroy"
+  257 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/encodeurl"
+  258 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/escape-html"
+  259 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/etag"
+  260 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/fresh"
+  261 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.3/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/http-errors"
+  262 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/mime/1.6.0/node_modules/mime"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/mime"
+  263 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ms/2.1.1/node_modules/ms"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/ms"
+  264 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/on-finished"
+  265 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/range-parser/1.2.1/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/range-parser"
+  266 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/statuses/1.5.0/node_modules/statuses"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/statuses"
+  267 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/depd/1.1.2/node_modules/depd"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.3/node_modules/depd"
+  268 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/inherits/2.0.4/node_modules/inherits"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.3/node_modules/inherits"
+  269 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/setprototypeof/1.1.1/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.3/node_modules/setprototypeof"
+  270 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/statuses/1.5.0/node_modules/statuses"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.3/node_modules/statuses"
+  271 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/toidentifier/1.0.0/node_modules/toidentifier"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.3/node_modules/toidentifier"
+  272 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/serve-static/1.14.1/node_modules/encodeurl"
+  273 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/serve-static/1.14.1/node_modules/escape-html"
+  274 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/serve-static/1.14.1/node_modules/parseurl"
+  275 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/send"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/serve-static/1.14.1/node_modules/send"
+  276 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/better-sqlite3/5.4.3/node_modules/better-sqlite3"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/quick.db/7.0.0-b22/node_modules/better-sqlite3"
+  277 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/lodash.get/4.4.2/node_modules/lodash.get"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/quick.db/7.0.0-b22/node_modules/lodash.get"
+  278 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/lodash.set/4.3.2/node_modules/lodash.set"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/quick.db/7.0.0-b22/node_modules/lodash.set"
+  279 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/lodash.unset/4.5.2/node_modules/lodash.unset"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/quick.db/7.0.0-b22/node_modules/lodash.unset"
+  280 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/better-sqlite3/5.4.3/node_modules/integer"
+  281 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/tar/4.4.13/node_modules/tar"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/better-sqlite3/5.4.3/node_modules/tar"
+  282 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/chownr/1.1.4/node_modules/chownr"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/tar/4.4.13/node_modules/chownr"
+  283 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/fs-minipass/1.2.7/node_modules/fs-minipass"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/tar/4.4.13/node_modules/fs-minipass"
+  284 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/minipass/2.9.0/node_modules/minipass"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/tar/4.4.13/node_modules/minipass"
+  285 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/minizlib/1.3.3/node_modules/minizlib"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/tar/4.4.13/node_modules/minizlib"
+  286 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/mkdirp/0.5.3/node_modules/mkdirp"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/tar/4.4.13/node_modules/mkdirp"
+  287 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/safe-buffer/5.2.0/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/tar/4.4.13/node_modules/safe-buffer"
+  288 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/yallist/3.1.1/node_modules/yallist"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/tar/4.4.13/node_modules/yallist"
+  289 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/minipass/2.9.0/node_modules/minipass"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/fs-minipass/1.2.7/node_modules/minipass"
+  290 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/safe-buffer/5.2.0/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/minipass/2.9.0/node_modules/safe-buffer"
+  291 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/yallist/3.1.1/node_modules/yallist"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/minipass/2.9.0/node_modules/yallist"
+  292 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/minipass/2.9.0/node_modules/minipass"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/minizlib/1.3.3/node_modules/minipass"
+  293 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/minimist/1.2.5/node_modules/minimist"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/mkdirp/0.5.3/node_modules/minimist"
+  294 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_done"
+  295 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/accepts/1.3.7/node_modules/accepts"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/accepts"
+  296 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ansi-styles/4.2.1/node_modules/ansi-styles"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/ansi-styles"
+  297 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/array-flatten/1.1.1/node_modules/array-flatten"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/array-flatten"
+  298 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/better-sqlite3/5.4.3/node_modules/better-sqlite3"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/better-sqlite3"
+  299 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/body-parser/1.19.0/node_modules/body-parser"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/body-parser"
+  300 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/content-disposition/0.5.3/node_modules/content-disposition"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/content-disposition"
+  301 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/content-type/1.0.4/node_modules/content-type"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/content-type"
+  302 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/cookie/0.4.0/node_modules/cookie"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/cookie"
+  303 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/cookie-signature/1.0.6/node_modules/cookie-signature"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/cookie-signature"
+  304 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/debug"
+  305 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/depd/1.1.2/node_modules/depd"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/depd"
+  306 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/encodeurl"
+  307 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/escape-html"
+  308 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/etag"
+  309 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/finalhandler/1.1.2/node_modules/finalhandler"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/finalhandler"
+  310 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/fresh"
+  311 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/lodash.get/4.4.2/node_modules/lodash.get"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/lodash.get"
+  312 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/lodash.set/4.3.2/node_modules/lodash.set"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/lodash.set"
+  313 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/lodash.unset/4.5.2/node_modules/lodash.unset"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/lodash.unset"
+  314 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/long/4.0.0/node_modules/long"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/long"
+  315 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/merge-descriptors/1.0.1/node_modules/merge-descriptors"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/merge-descriptors"
+  316 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/methods/1.1.2/node_modules/methods"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/methods"
+  317 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/on-finished"
+  318 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/parseurl"
+  319 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/path-to-regexp/0.1.7/node_modules/path-to-regexp"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/path-to-regexp"
+  320 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/prism-media/0.0.4/node_modules/prism-media"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/prism-media"
+  321 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/proxy-addr/2.0.5/node_modules/proxy-addr"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/proxy-addr"
+  322 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/qs/6.7.0/node_modules/qs"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/qs"
+  323 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/range-parser/1.2.1/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/range-parser"
+  324 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/safe-buffer/5.1.2/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/safe-buffer"
+  325 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/send/0.17.1/node_modules/send"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/send"
+  326 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/serve-static/1.14.1/node_modules/serve-static"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/serve-static"
+  327 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/setprototypeof/1.1.1/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/setprototypeof"
+  328 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/snekfetch/3.6.4/node_modules/snekfetch"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/snekfetch"
+  329 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/statuses/1.5.0/node_modules/statuses"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/statuses"
+  330 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/supports-color/7.1.0/node_modules/supports-color"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/supports-color"
+  331 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/tweetnacl/1.0.3/node_modules/tweetnacl"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/tweetnacl"
+  332 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/type-is"
+  333 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/utils-merge/1.0.1/node_modules/utils-merge"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/utils-merge"
+  334 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/vary/1.1.2/node_modules/vary"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/vary"
+  335 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ws/6.2.1/node_modules/ws"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/ws"
+  336 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/@types/color-name/1.1.1/node_modules/@types/color-name"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/@types/color-name"
+  337 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/async-limiter/1.0.1/node_modules/async-limiter"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/async-limiter"
+  338 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/bytes/3.1.0/node_modules/bytes"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/bytes"
+  339 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/color-convert/2.0.1/node_modules/color-convert"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/color-convert"
+  340 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/destroy/1.0.4/node_modules/destroy"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/destroy"
+  341 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ee-first/1.1.1/node_modules/ee-first"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/ee-first"
+  342 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/forwarded/0.1.2/node_modules/forwarded"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/forwarded"
+  343 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/has-flag/4.0.0/node_modules/has-flag"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/has-flag"
+  344 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/http-errors/1.7.2/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/http-errors"
+  345 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/iconv-lite"
+  346 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/integer"
+  347 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ipaddr.js/1.9.0/node_modules/ipaddr.js"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/ipaddr.js"
+  348 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/media-typer/0.3.0/node_modules/media-typer"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/media-typer"
+  349 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/mime/1.6.0/node_modules/mime"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/mime"
+  350 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/mime-types/2.1.25/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/mime-types"
+  351 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/ms/2.0.0/node_modules/ms"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/ms"
+  352 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/negotiator/0.6.2/node_modules/negotiator"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/negotiator"
+  353 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/raw-body/2.4.0/node_modules/raw-body"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/raw-body"
+  354 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/tar/4.4.13/node_modules/tar"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/tar"
+  355 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/unpipe"
+  356 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/chownr/1.1.4/node_modules/chownr"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/chownr"
+  357 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/color-name/1.1.4/node_modules/color-name"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/color-name"
+  358 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/fs-minipass/1.2.7/node_modules/fs-minipass"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/fs-minipass"
+  359 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/inherits/2.0.3/node_modules/inherits"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/inherits"
+  360 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/mime-db/1.42.0/node_modules/mime-db"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/mime-db"
+  361 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/minipass/2.9.0/node_modules/minipass"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/minipass"
+  362 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/minizlib/1.3.3/node_modules/minizlib"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/minizlib"
+  363 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/mkdirp/0.5.3/node_modules/mkdirp"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/mkdirp"
+  364 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/safer-buffer/2.1.2/node_modules/safer-buffer"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/safer-buffer"
+  365 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/toidentifier/1.0.0/node_modules/toidentifier"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/toidentifier"
+  366 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/yallist/3.1.1/node_modules/yallist"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/yallist"
+  367 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/minimist/1.2.5/node_modules/minimist"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/minimist"
+  368 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/chalk/3.0.0/node_modules/chalk"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/chalk"
+  369 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/discord.js/11.6.3/node_modules/discord.js"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/discord.js"
+  370 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/express"
+  371 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/fs/0.0.2/node_modules/fs"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/fs"
+  372 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/moment/2.24.0/node_modules/moment"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/moment"
+  373 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/moment-duration-format/2.3.2/node_modules/moment-duration-format"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/moment-duration-format"
+  374 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/quick.db/7.0.0-b22/node_modules/quick.db"
+    link: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/quick.db"
+  375 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/chalk/3.0.0"
+      name: "chalk"
+      realName: "chalk"
+      version: "3.0.0"
+    prefix: "/app"
+  376 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/discord.js/11.6.3"
+      name: "discord.js"
+      realName: "discord.js"
+      version: "11.6.3"
+    prefix: "/app"
+  377 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/express/4.17.1"
+      name: "express"
+      realName: "express"
+      version: "4.17.1"
+    prefix: "/app"
+  378 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/fs/0.0.2"
+      name: "fs"
+      realName: "fs"
+      version: "0.0.2"
+    prefix: "/app"
+  379 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/moment/2.24.0"
+      name: "moment"
+      realName: "moment"
+      version: "2.24.0"
+    prefix: "/app"
+  380 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/moment-duration-format/2.3.2"
+      name: "moment-duration-format"
+      realName: "moment-duration-format"
+      version: "2.3.2"
+    prefix: "/app"
+  381 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/quick.db/7.0.0-b22"
+      name: "quick.db"
+      realName: "quick.db"
+      version: "7.0.0-b22"
+    prefix: "/app"
+  382 debug pnpm:package-json: 
+    prefix: "/app"
+    updated: 
+      //1: "describes your app and its dependencies"
+      //2: "https://docs.npmjs.com/files/package.json"
+      //3: "updating this file will download and update your packages"
+      name: "hello-express"
+      version: "0.0.1"
+      description: "A simple Node app built on Express, instantly up and running."
+      main: "server.js"
+      scripts: 
+        start: "node server.js"
+      dependencies: 
+        express: "^4.17.1"
+        quick.db: "^7.0.0-b22"
+        discord.js: "^11.5.1"
+        fs: "^0.0.2"
+        chalk: "^3.0.0"
+        moment: "^2.24.0"
+        moment-duration-format: "^2.2.2"
+      engines: 
+        node: "12.x"
+      repository: 
+        url: "https://glitch.com/edit/#!/hello-express"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      readme: "MERHABALAR BU ALTYAPI [FRENZY CODE](https://discord.gg/F5VD66M) SUNUCUSUNA AİİTR. PAYLAŞILMASI KESİNLİKLE YASAKTIR! \n\n---------------------------------\n[TIKLA GİT](https://discord.gg/F5VD66M)\n---------------------------------"
+      readmeFilename: "README.MD"
+      gitHead: "ea10a208f40aa0a17422162df06f6e7b3b0c8e43"
+      _id: "hello-express@0.0.1"
+  383 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    optional: false
+    script: "node-gyp rebuild"
+    stage: "install"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  384 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp info it worked if it ends with ok"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  385 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp info using node-gyp@3.8.0"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  386 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp info using node@12.0.0 | linux | x64"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  387 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp http GET https://nodejs.org/download/release/v12.0.0/node-v12.0.0-headers.tar.gz"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  388 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp http 403 https://nodejs.org/download/release/v12.0.0/node-v12.0.0-headers.tar.gz"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  389 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp WARN install got an error, rolling back install"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  390 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! configure error "
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  391 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! stack Error: 403 response downloading https://nodejs.org/download/release/v12.0.0/node-v12.0.0-headers.tar.gz"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  392 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! stack     at Request.<anonymous> (/opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/node_modules/node-gyp/lib/install.js:214:14)"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  393 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! stack     at Request.emit (events.js:201:15)"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  394 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! stack     at Request.onRequestResponse (/opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/node_modules/request/request.js:1066:10)"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  395 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! stack     at ClientRequest.emit (events.js:196:13)"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  396 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! stack     at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:565:23)"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  397 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! stack     at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  398 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! stack     at TLSSocket.socketOnData (_http_client.js:452:22)"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  399 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! stack     at TLSSocket.emit (events.js:196:13)"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  400 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! stack     at addChunk (_stream_readable.js:290:12)"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  401 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! stack     at readableAddChunk (_stream_readable.js:271:11)"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  402 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! System Linux 4.4.0-1085-aws"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  403 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! command \"/opt/nvm/versions/node/v12.0.0/bin/node\" \"/opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/node_modules/node-gyp/bin/node-gyp.js\" \"rebuild\""
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  404 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! cwd /rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  405 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! node -v v12.0.0"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  406 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! node-gyp -v v3.8.0"
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  407 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    line: "gyp ERR! not ok "
+    stage: "install"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  408 debug pnpm:lifecycle: 
+    depPath: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+    exitCode: 1
+    optional: false
+    stage: "install"
+    wd: "/rbd/pnpm-volume/e144be84-fd52-4c70-bfbf-e91311963e0c/node_modules/.registry.npmjs.org/integer/2.1.0/node_modules/integer"
+  409 error pnpm: 
+    message: 
+      errno: 1
+      code: "ELIFECYCLE"
+      pkgid: "integer@2.1.0"
+      stage: "install"
+      script: "node-gyp rebuild"
+      pkgname: "integer"
+    err: 
+      name: "Error"
+      message: "integer@2.1.0 install: `node-gyp rebuild`\nExit status 1"
+      code: "ELIFECYCLE"
+      stack: "Error: integer@2.1.0 install: `node-gyp rebuild`\nExit status 1\n    at EventEmitter.<anonymous> (/opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/node_modules/@zkochan/npm-lifecycle/index.js:303:16)\n    at EventEmitter.emit (events.js:196:13)\n    at ChildProcess.<anonymous> (/opt/nvm/versions/node/v10.15.3/lib/node_modules/pnpm/lib/node_modules/@zkochan/npm-lifecycle/lib/spawn.js:55:14)\n    at ChildProcess.emit (events.js:196:13)\n    at maybeClose (internal/child_process.js:1000:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:267:5)"
